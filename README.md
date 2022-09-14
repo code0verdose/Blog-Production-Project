@@ -4,6 +4,7 @@
 ## Stack
 
 - [ReactJS]
+- [Redux Toolkit]
 - [TypeScript]
 - [Webpack]
 - [Sass/Module]
