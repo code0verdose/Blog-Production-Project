@@ -1,7 +1,7 @@
 # Blog - production training project.
 ##### _by RaveOverdose_
 
-## Tech
+## Stack
 
 - [ReactJS]
 - [TypeScript]
