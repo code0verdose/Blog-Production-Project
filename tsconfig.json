@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        //Можем указать тип :any
+        "noImplicitAny": true,
+        //Тип импортов/модули
+        "module": "ESNext",
+        //Во что будет компилироваться код
+        "target": "es5",
+        //Позволяет писать jsx
+        "jsx": "react-jsx",
+        //Для абсолютных путей
+        "baseUrl": ".",
+        //Позволяет компилятору обрабатывать не только .ts файлы, но и .js
+        "allowJs": true,
+        "moduleResolution": "node",
+        //Позволяют делать обычные import/export вместо require - common js
+        "esModuleInterop": true,
+        //Позволяет писать импорты без - "* as"
+        "allowSyntheticDefaultImports": true
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    }
+}
