@@ -1,11 +1,10 @@
 # Blog - production training project.
 ##### _by RaveOverdose_
 
-## Tech
-
-Dillinger uses a number of open source projects to work properly:
+## Stack
 
 - [ReactJS]
+- [Redux Toolkit]
 - [TypeScript]
 - [Webpack]
 - [Sass/Module]
