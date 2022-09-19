@@ -11,6 +11,9 @@
         "jsx": "react-jsx",
         //Для абсолютных путей
         "baseUrl": ".",
+        "paths": {
+            "*": ["./src/*"]
+        },
         //Позволяет компилятору обрабатывать не только .ts файлы, но и .js
         "allowJs": true,
         "moduleResolution": "node",
