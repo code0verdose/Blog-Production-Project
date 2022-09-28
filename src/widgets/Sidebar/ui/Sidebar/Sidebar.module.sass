@@ -1,0 +1,18 @@
+.Sidebar
+  height: calc(100vh - var(--navbar-height) - 20px)
+  width: var(--sidebar-width)
+  background: var(--inverted-bg-color)
+  position: relative
+  transition: width .2s linear
+  border: 1px solid #f3f3f3
+  border-radius: 15px
+
+.collapsed
+  width: var(--sidebar-width-collapsed)
+
+.switchers
+  position: absolute
+  bottom: 20px
+  display: flex
+  justify-content: center
+  width: 100%
