@@ -6,7 +6,9 @@
   "scripts": {
     "start": "webpack serve --env port=3000",
     "build:prod": "webpack --env mode=production",
-    "build:dev": "webpack --env mode=development"
+    "build:dev": "webpack --env mode=development",
+    "eslint:ts": "eslint '**/*.{ts,tsx}'",
+    "eslint:ts:fix": "eslint '**/*.{ts,tsx}' --fix"
   },
   "repository": {
     "type": "git",
@@ -27,7 +29,11 @@
     "@types/react-router-dom": "^5.3.3",
     "@types/webpack": "^5.28.0",
     "@types/webpack-dev-server": "^4.7.2",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
     "css-loader": "^6.6.0",
+    "eslint": "^8.10.0",
+    "eslint-plugin-react": "^7.31.8",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.5.3",
