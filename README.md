@@ -44,3 +44,17 @@ For development release:
 npm run build:dev
 ```
 
+#### Eslint
+
+Check files:
+
+```sh
+npm run eslint:ts
+```
+
+Fix files:
+
+```sh
+npm run eslint:ts:fix
+```
+
