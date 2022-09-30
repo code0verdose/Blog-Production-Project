@@ -35,6 +35,7 @@
     "@typescript-eslint/parser": "^5.38.1",
     "css-loader": "^6.6.0",
     "eslint": "^8.10.0",
+    "eslint-plugin-i18next": "^5.1.2",
     "eslint-plugin-react": "^7.31.8",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",

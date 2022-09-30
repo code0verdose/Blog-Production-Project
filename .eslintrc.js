@@ -1,12 +1,14 @@
 module.exports = {
 	'env': {
 		'browser': true,
-		'es2021': true
+		'es2021': true,
+		'node': true,
 	},
 	'extends': [
 		'eslint:recommended',
 		'plugin:react/recommended',
-		'plugin:@typescript-eslint/recommended'
+		'plugin:@typescript-eslint/recommended',
+		'plugin:i18next/recommended',
 	],
 	'overrides': [
 	],
@@ -17,7 +19,8 @@ module.exports = {
 	},
 	'plugins': [
 		'react',
-		'@typescript-eslint'
+		'@typescript-eslint',
+		'i18next'
 	],
 	'rules': {
 		'indent': [
@@ -38,6 +41,8 @@ module.exports = {
 		],
 		'react/react-in-jsx-scope': 'off',
 		'no-unused-vars': 'warn',
-		'@typescript-eslint/ban-ts-comment': 'warn'
+		'@typescript-eslint/ban-ts-comment': 'warn',
+		'i18next/no-literal-string': ['error', {markupOnly: true,}],
+
 	}
 };
