@@ -58,3 +58,17 @@ Fix files:
 npm run eslint:ts:fix
 ```
 
+#### Stylelint
+
+Check .scss files:
+
+```sh
+npm run lint:scss
+```
+
+Fix .scss files:
+
+```sh
+npm run lint:scss:fix
+```
+
