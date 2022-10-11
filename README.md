@@ -72,3 +72,10 @@ Fix .scss files:
 npm run lint:scss:fix
 ```
 
+#### Jest
+
+Start Unit tests:
+
+```sh
+npm run unit
+```
